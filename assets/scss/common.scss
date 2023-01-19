@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "SUIT-Variable";
+    src: local("SUIT-Variable"),
+     url(~assets/fonts/SUIT-Variable.ttf) format("truetype");
+}
+
+// 이곳엔 전역 스타일이 들어갑니다.
+* { font-family: "SUIT Variable", sans-serif; font-weight: 500; letter-spacing: -0.025em; }
+// body { background-color: $slate-300; color: $black; }
