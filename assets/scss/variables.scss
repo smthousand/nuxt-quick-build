@@ -15,9 +15,12 @@ $desktop-over: 2500px;
 
 // %%% Color Styles %%% //
 // Brand Color
-$primary: #333; 
-$secondary: #333; 
-$tertiary: #333; 
+$primary: #1326AB; 
+$secondary: #0B0C31; 
+$tertiary: #FDB515; 
+
+// System Color
+$danger: #D20000;
 
 // tailwindCSS Color
 $slate-900: #0f172a;
@@ -261,7 +264,7 @@ $rose-200: #fecdd3;
 $rose-100: #ffe4e6;
 $rose-50: #fff1f2;
 
-$black: #111215;
+$black: #111827;
 $white: #ffffff;
 
 
@@ -291,13 +294,16 @@ $x20: 80px;
 
 
 // %%% Font Size %%% //
+$text-2xs: 0.625rem; /* 10px */
 $text-xs: 0.75rem; /* 12px */
 $text-sm: 0.875rem; /* 14px */
 $text-base: 1rem; /* 16px */
 $text-lg: 1.125rem; /* 18px */
 $text-xl: 1.25rem; /* 20px */
-$text-2xl: 1.5rem; /* 24px */
-$text-3xl: 1.875rem; /* 30px */
+$text-2xl: 1.375rem; /* 22px */
+// $text-2xl: 1.5rem; /* 24px */
+$text-3xl: 1.75rem; /* 28px*/
+// $text-3xl: 1.875rem; /* 30px */
 $text-4xl: 2.25rem; /* 36px */
 $text-5xl: 3rem; /* 48px */
 $text-6xl: 3.75rem; /* 60px */

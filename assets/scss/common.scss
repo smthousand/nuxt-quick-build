@@ -1,9 +1,62 @@
 @font-face {
-    font-family: "SUIT-Variable";
-    src: local("SUIT-Variable"),
-     url(~assets/fonts/SUIT-Variable.ttf) format("truetype");
+    font-family: "Pretendard-Variable.ttf";
+    src: local("Pretendard-Variable.ttf"),
+     url(~assets/fonts/Pretendard-Variable.ttf) format("truetype");
 }
 
 // 이곳엔 전역 스타일이 들어갑니다.
-* { font-family: "SUIT Variable", sans-serif; font-weight: 500; letter-spacing: -0.025em; }
+* { font-family: "Pretendard Variable", sans-serif; font-weight: 400; letter-spacing: -0.025em; }
 // body { background-color: $slate-300; color: $black; }
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+        .col-1 {flex-basis: 8.33%;}
+        .col-2 {flex-basis: 16.66%;}
+        .col-3 {flex-basis: 25%;}
+        .col-4 {flex-basis: 33.33%;}
+        .col-5 {flex-basis: 41.66%;}
+        .col-6 {flex-basis: 50%;}
+        .col-7 {flex-basis: 58.33%;}
+        .col-8 {flex-basis: 66.66%;}
+        .col-9 {flex-basis: 75%;}
+        .col-10 {flex-basis: 83.33%;}
+        .col-11 {flex-basis: 91.66%;}
+        .col-12 {flex-basis: 100%;}
+}
+
+
+// 타이포그래피
+h1 {font-size: $text-4xl; font-weight: $font-semibold; margin-bottom: $x5;}
+h2 {font-size: $text-3xl; font-weight: $font-semibold; margin-bottom: $x5;}
+h3 {font-size: $text-2xl; font-weight: $font-medium;}
+h4 {font-size: $text-lg; font-weight: $font-semibold; margin-bottom: $x1;}
+h5 {font-size: $text-base; font-weight: $font-semibold;}
+
+p.body-light {font-size: $text-base; font-weight: $font-light;}
+p.body-regular {font-size: $text-base; font-weight: $font-reqular;}
+p.body-medium {font-size: $text-base; font-weight: $font-medium;}
+p.body-semibold {font-size: $text-base; font-weight: $font-semibold;}
+
+span {font-size: $text-sm; font-weight: $font-reqular; color: $gray-500;}
+span.base {font-size: $text-base;}
+span.caption {font-size: $text-xs; font-weight: $font-reqular;}
+span.small {font-size: $text-2xs; font-weight: $font-reqular;}
+
+// 대쉬보드 박스 컨테이너
+.box-container {
+    background-color: $white;
+    border: 1px solid $gray-200;
+    padding: $x6;
+    .box-container__title {
+        margin-bottom: $x6;
+    }
+    &.rounded {
+        border-radius: $x3;
+    }
+}
+
+
+// 드롭다운 오픈 리스트
